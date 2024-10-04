@@ -12,9 +12,9 @@
 .search-filter-container {
     display: flex;
     justify-content: space-between;
-    /* Hər iki elementi bir-birindən aralı yerləşdirir */
+   
     align-items: center;
-    /* Axtarış və filtrin ortada düzülməsi üçün */
+    
     margin-top: 10px;
 }
 
