@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.register-in {
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.register-box {
+    width: 100%;
+
+    h2 {
+        font-weight: 500;
+        padding: 1.5rem 0px 0px 1.5rem;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        align-items: center;
+        gap: 15px;
+
+        label {
+            position: relative;
+
+            p {
+                background-color: #fafafa;
+                padding-inline: 10px;
+                top: -7px;
+                left: 7px;
+                position: absolute;
+                font-size: 12px;
+            }
+
+            input {
+                padding: 10px;
+                height: 40px;
+                background-color: transparent;
+                border: 1px solid #d4d2d2;
+                width: 370px;
+                outline: none;
+                border-radius: 5px;
+
+            }
+        }
+
+        .sign-up {
+            background-color: #000;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            width: 90%;
+            height: 50px;
+        }
+
+        .border {
+            width: 85%;
+            background-color: #E0E0E0;
+            height: 1px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            p {
+                position: absolute;
+                font-size: 16px;
+                font-weight: 700;
+                top: -10px;
+                padding-inline: 8px;
+                background-color: #fafafa;
+
+            }
+        }
+
+        .google-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 90%;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: #616161;
+            background-color: transparent;
+            border: 1px solid #dcdcdc;
+
+            i {
+                color: #FF3D00;
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 14px;
+                color: #616161;
+                font-weight: 400;
+            }
+        }
+    }
+
+}
+
+.register-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 5px;
+
+    span {
+        font-weight: 700;
+    }
+}
