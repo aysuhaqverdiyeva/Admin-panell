@@ -8,17 +8,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      
-      <div className="container">
-        <Sidebar />
-        <Routes>
-         
-          <Route path="/users" element={<Users />} />
-          <Route path="/application" element={<Application />} />
-        </Routes>
-      </div>
-    </Router>
+    <Routes>
+        <Route path="/" element={<Home/>}/>
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/forgot-password" element={<Forgot/>}/>
+      </Routes>
   );
 }
 
