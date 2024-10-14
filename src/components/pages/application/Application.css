@@ -1,0 +1,55 @@
+.application-header{
+    flex:4;
+    background-color: #f8f9fa;
+    padding: 41px 44px 0 71px;
+    /* width: 98%; */
+        /* margin-top: 20px; */
+}
+.application-topBar{
+    
+}
+/* Flexbox layout for search and filter */
+.search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    /* Hər iki elementi bir-birindən aralı yerləşdirir */
+    align-items: center;
+    /* Axtarış və filtrin ortada düzülməsi üçün */
+    margin-top: 10px;
+}
+
+.search-container {
+    flex: 1;
+    /* Axtarış qutusu daha çox yer tutacaq */
+    margin-right: 10px;
+}
+
+.filter-container {
+    flex: 0;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.status-filter {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+user-table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

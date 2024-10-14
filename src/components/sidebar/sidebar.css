@@ -1,0 +1,102 @@
+.sidebar{
+    padding: 0 39px;
+    margin-top:36px;
+    
+      /* flex:1; */
+    width: 306px;
+        
+         background-color: #FFFFFF;;
+        height: 100vh;
+        position:sticky;
+        
+}
+.sideBarListItem span{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/* Wrapper for sidebar items */
+.sidebarWrapper {
+    padding: 20px;
+    width: 306px;
+   
+}
+
+/* Style for sidebar menu */
+.sidebarMenu {
+    margin-bottom: 10px;
+    width: 306px;
+}
+
+/* Style for the list */
+.sidebarList {
+    width:306px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Each list item */
+.sidebarListItem {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebarListItem:hover {
+    background-color: #5932EA;
+    
+    
+}
+
+/* Flex container for icon and text */
+.sidebarIconText {
+    display: flex;
+    align-items: center;
+}
+
+/* Sidebar logos */
+.sidebarLogo {
+    margin-right: 14px;
+    
+    width: 24px;
+    
+    height: 24px;
+    color:grey;
+}
+
+.sidebarLogo:hover {
+    color: #FFFFFF;
+}
+
+/* Text beside logo */
+.sidebarText {
+    font-size: 16px;
+    color: #9197B3;;
+}
+
+.sidebarText:hover {
+    color:#FFFFFF;
+}
+
+
+
+
+.logo_text {
+    font-family: Poppins;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    display: flex;
+    gap: 1px;
+}
+
+.logo {
+    width: 37px;
+    height: 37px;
+
+}
